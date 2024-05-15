@@ -77,7 +77,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--simulate",
         action=argparse.BooleanOptionalAction,
-        default=True,
+        default=False,
         help="Simulate an episode after computing the optimal policies or not",
     )
     args = parser.parse_args()
