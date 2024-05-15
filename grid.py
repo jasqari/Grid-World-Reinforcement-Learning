@@ -64,7 +64,7 @@ class Grid:
             return grid
 
         fig, ax = plt.subplots()
-        plt.title("Agent Path")
+        plt.title("Agent's Path")
         grid = ax.matshow(path[0], cmap="Greens")
         anim = animation.FuncAnimation(
             fig, update, partial(generate, path), interval=500, save_count=100
