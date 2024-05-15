@@ -9,7 +9,7 @@ This repository provides Python implementations of some of the reinforcement lea
 * `Grid.py` defines the 2D grid world object class and is the tool to simulate the environment,
 * `main.py` is a framework that finds and saves optimal values, runs simulations in the environment, etc.
 
-Refer to [Sutton & Barto 2020](http://incompleteideas.net/book/the-book-2nd.html) for more information.
+Refer to [Sutton & Barto 2018](http://incompleteideas.net/book/the-book-2nd.html) for more information.
 
 ## Requirements
 ```
