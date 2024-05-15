@@ -8,6 +8,7 @@ This repository provides Python implementations of some of the reinforcement lea
 * `Algorithms/` contains the implementations of methods,
 * `Grid.py` defines the 2D grid world object class and is the tool to simulate the environment,
 * `main.py` is a framework that finds and saves optimal values, runs simulations in the environment, etc.
+Refer to _Sutton, R. S., & Barto, A. G. Reinforcement Learning, second edition: An Introduction. MIT Press._ for more information.
 
 ## Requirements
 ```
