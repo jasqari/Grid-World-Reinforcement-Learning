@@ -22,9 +22,14 @@ See the full list of options:
 python3 main.py -h
 ```
 
-Choose the grid world size and algorithm:
+Choose the grid world size and RL algorithm:
 ```
 python3 main.py 8 mc
+```
+
+Provide initial state like 'row,col' and goal states in the form of 'row1,col1-row2,col2-...':
+```
+python3 main.py 5 sarsa --init_state 0,4 --goal_states 3,0-4,0
 ```
 
 Tune some of the parameters:
