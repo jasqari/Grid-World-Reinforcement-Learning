@@ -36,6 +36,9 @@ Tune some of the parameters:
 ```
 python3 main.py 8 val_iter --N 200 --gamma 0.9 
 ```
+```
+python3 main.py 5 ql --N 500 --epsilon 0.9 --gamma 0.7 --alpha 0.6
+```
 
 Simulate an episode and display the agent's path:
 ```
